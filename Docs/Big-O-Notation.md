@@ -75,8 +75,8 @@ Cuando analizamos la eficiencia de un algoritmo, es importante considerar tres e
 ---
 
 ### **1️⃣ Peor Caso (Worst Case - O)**  
-🔹 Representado por **O (Big-O Notation)**  
-🔹 Es el tiempo máximo que tomará el algoritmo en ejecutarse.  
+🔹 Representado por **O (Big-O Notation)** 
+🔹 Es el tiempo máximo que tomará el algoritmo en ejecutarse.
 🔹 Se usa para garantizar que un algoritmo no supere un cierto límite de tiempo.
 
 #### **Ejemplo: Búsqueda en un arreglo desordenado (O(n))**
@@ -90,7 +90,7 @@ def buscar(lista, objetivo):
 ```
 
 ### **2️⃣ Mejor Caso (Best Case - Ω)**
-🔹 Representado por Ω (Omega Notation)
+🔹 Representado por Ω (Omega Notation).
 🔹 Es el tiempo mínimo que puede tomar el algoritmo en ejecutarse.
 🔹 No siempre es útil, porque no siempre ocurre en la práctica.
 
