@@ -11,7 +11,7 @@ La **Notación Big-O** describe el **comportamiento asintótico** de un algoritm
 
 ## 📖 Contenido del Documento  
 
-    ✅ **Conceptos clave** sobre la notación Big-O.  
+✅ **Conceptos clave** sobre la notación Big-O.
 ✅ **Diferentes tipos de complejidad temporal y cantidad de memoria.**  
 ✅ **Ejemplos de análisis de algoritmos con Big-O.**  
 ✅ **Casos Peor, Mejor y Promedio.**  
@@ -75,9 +75,9 @@ Cuando analizamos la eficiencia de un algoritmo, es importante considerar tres e
 ---
 
 ### **1️⃣ Peor Caso (Worst Case - O)**  
-    🔹 Representado por **O (Big-O Notation)** 
-    🔹 Es el tiempo máximo que tomará el algoritmo en ejecutarse.
-    🔹 Se usa para garantizar que un algoritmo no supere un cierto límite de tiempo.
+🔹 Representado por **O (Big-O Notation)** 
+🔹 Es el tiempo máximo que tomará el algoritmo en ejecutarse.
+🔹 Se usa para garantizar que un algoritmo no supere un cierto límite de tiempo.
 
 #### **Ejemplo: Búsqueda en un arreglo desordenado (O(n))**
 - 📌 Peor caso: Si el objetivo está al final de la lista o no está presente, se recorre toda la lista → O(n)
