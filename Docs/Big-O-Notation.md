@@ -11,12 +11,12 @@ La **Notación Big-O** describe el **comportamiento asintótico** de un algoritm
 
 ## 📖 Contenido del Documento  
 
-✅ **Conceptos clave** sobre la notación Big-O.
+✅ **Conceptos clave** sobre la notación Big-O.  
 ✅ **Diferentes tipos de complejidad temporal y cantidad de memoria.**  
 ✅ **Ejemplos de análisis de algoritmos con Big-O.**  
-✅ **Casos Peor, Mejor y Promedio.**  
-✅ **Tabla de complejidades comunes y su impacto.**
-✅ **Factores Claves para un Algoritmo Eficiente.**
+✅ **Casos Peor, Mejor y Promedio.**   
+✅ **Tabla de complejidades comunes y su impacto.**  
+✅ **Factores Claves para un Algoritmo Eficiente.**  
 
 ---
 
