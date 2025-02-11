@@ -110,7 +110,7 @@ Cuando analizamos la eficiencia de un algoritmo, es importante considerar tres e
 🔹 Se usa para garantizar que un algoritmo no supere un cierto límite de tiempo.  
 
 #### **Ejemplo: Búsqueda en un arreglo desordenado (O(n))**
-- 📌 Peor caso: Si el objetivo está al final de la lista o no está presente, se recorre toda la lista → O(n)
+📌 **Peor caso**: Si el objetivo está al final de la lista o no está presente, se recorre toda la lista → O(n)  
 ```python
 def buscar(lista, objetivo):
     for elemento in lista:
@@ -119,13 +119,15 @@ def buscar(lista, objetivo):
     return False
 ```
 
+---
+
 ### **2️⃣ Mejor Caso (Best Case - Ω)**
 🔹 Representado por Ω (Omega Notation).  
 🔹 Es el tiempo mínimo que puede tomar el algoritmo en ejecutarse.  
 🔹 No siempre es útil, porque no siempre ocurre en la práctica.  
 
 #### **Ejemplo: Búsqueda en una lista ordenada (Ω(1))**
-- 📌 Mejor caso: Si el objetivo está en la primera posición, se encuentra en O(1).
+📌 **Mejor caso**: Si el objetivo está en la primera posición, se encuentra en O(1).  
 ```python
 def buscar(lista, objetivo):
     if lista[0] == objetivo:
@@ -133,13 +135,15 @@ def buscar(lista, objetivo):
     return buscar(lista[1:], objetivo)  # Continúa la búsqueda
 ```
 
+---
+
 ### **3️⃣ Caso Promedio (Average Case - Θ)**
 🔹 Representado por Θ (Theta Notation)  
 🔹 Es el tiempo esperado si todas las entradas son igualmente probables.  
 🔹 Se usa en análisis probabilístico cuando el peor caso no siempre es realista.  
 
 #### Ejemplo: Búsqueda en un arreglo desordenado
-- 📌 Caso promedio: En una lista de tamaño n, se asume que el elemento se encuentra en la mitad → O(n/2) ≈ O(n).
+📌 **Caso promedio**: En una lista de tamaño n, se asume que el elemento se encuentra en la mitad → O(n/2) ≈ O(n).
     - Si el objetivo está al inicio → O(1)
     - Si el objetivo está en el medio → O(n/2)
     - Si el objetivo no está → O(n)
@@ -152,7 +156,9 @@ def buscar(lista, objetivo):
 | **Mejor Caso (Ω)** | Se da cuando siempre elegimos el pivote ideal, dividiendo el array en partes iguales en cada iteración. | **O(n log n)** |
 | **Caso Promedio (Θ)** | En la mayoría de los casos, QuickSort se comporta de manera eficiente al dividir los elementos de forma más equilibrada. | **O(n log n)** |
 
-### **📌 Resumen**  
+---
+
+### 📌**Resumen de Análisis de Complejidad**  
 
 | **Tipo de Caso**  | **Notación**  | **Cuándo ocurre**  |
 |------------------|-------------|------------------|
@@ -162,7 +168,7 @@ def buscar(lista, objetivo):
 
 ---
 
-## 📌 Factores Claves para un Algoritmo Eficiente
+## 🎯 Factores Claves para un Algoritmo Eficiente
 
 Al crear un **algoritmo eficiente** para **análisis de datos**, es crucial considerar los siguientes puntos para asegurarte de que cumple con los parámetros adecuados en términos de **tiempo** y **uso de memoria**.  
 
@@ -295,9 +301,4 @@ print(resultados)
 📖 [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)  
 🎥 [Video Explicativo en YouTube](https://www.youtube.com/watch?v=__vX2sjlpXU) 
 📖 [CS50 Harvard - Introducción a Algoritmos](https://cs50.harvard.edu/)
-
----
-
-
----
 
