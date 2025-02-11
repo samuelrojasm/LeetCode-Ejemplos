@@ -201,6 +201,8 @@ def busqueda_binaria(lista, objetivo):
 ```
 📌 **Complejidad: O(log n)**, ya que reduce el tamaño del problema a la mitad en cada iteración.  
 
+---
+
 ### **2️⃣ Complejidad Espacial (Uso de Memoria - O(f(n)))**  
 🔹 Determina cuánto espacio adicional usa el algoritmo más allá de los datos de entrada.  
 🔹 Evita estructuras innecesarias que dupliquen la memoria utilizada.  
@@ -221,6 +223,8 @@ def leer_lineas(archivo):
 ```
 📌 Complejidad espacial: O(1), ya que solo mantiene una línea de texto en memoria a la vez.  
 
+---
+
 ### **3️⃣ Estructuras de Datos Adecuadas**  
 🔹 Elegir la estructura de datos correcta reduce la complejidad de las operaciones que realizas en el algoritmo.  
 
@@ -236,6 +240,8 @@ def leer_lineas(archivo):
 | **Procesar en orden LIFO**  | `Pila` (`Stack`)                | **O(1)**       |
 
 📌 Ejemplo: Si necesitas buscar valores rápidamente, usa un **set** o **dict**, ya que la búsqueda es O(1) en lugar de O(n) con listas.  
+
+---
 
 ### **4️⃣ Evitar Bucles Ineficientes** 
 🔹 Evita bucles anidados innecesarios (O(n²)) si se puede usar una estructura más eficiente.  
@@ -258,6 +264,8 @@ for i in lista:
 ```
 📌 Mejoramos de O(n²) a O(n) usando un set! 🚀  
 
+---
+
 ### **5️⃣ Uso Eficiente de Librerías y Paralelismo**  
 🔹 En Python, usa librerías optimizadas como **NumPy**, **Pandas**, multiprocessing para acelerar cálculos.
 🔹 En Big Data, usa frameworks distribuidos como **Apache Spark** o **Dask**.
@@ -278,7 +286,9 @@ print(resultados)
 ```
 📌 Mejora el tiempo de ejecución al usar múltiples núcleos del procesador para realizar cálculos en paralelo.  
 
-### 📌 **Resumen de Factores Claves para un Algoritmo Eficiente**
+---
+
+### 📊  **Resumen de Factores Claves para un Algoritmo Eficiente**
 
 | **Factor**                          | **¿Qué hacer?** |
 |--------------------------------------|-----------------|
@@ -299,6 +309,5 @@ print(resultados)
 
 ## 📚 Recursos Adicionales  
 📖 [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)  
-🎥 [Video Explicativo en YouTube](https://www.youtube.com/watch?v=__vX2sjlpXU) 
-📖 [CS50 Harvard - Introducción a Algoritmos](https://cs50.harvard.edu/)
-
+🎥 [Video Explicativo en YouTube](https://www.youtube.com/watch?v=__vX2sjlpXU)  
+📖 [CS50 Harvard - Introducción a Algoritmos](https://cs50.harvard.edu/)  
