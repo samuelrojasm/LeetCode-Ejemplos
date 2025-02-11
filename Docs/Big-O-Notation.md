@@ -17,6 +17,7 @@ La **Notación Big-O** describe el **comportamiento asintótico** de un algoritm
 ✅ **Casos Peor, Mejor y Promedio.**   
 ✅ **Tabla de complejidades comunes y su impacto.**  
 ✅ **Factores Claves para un Algoritmo Eficiente.**  
+✅ **Crecimiento de Diferentes Complejidades**  
 
 ---
 
@@ -302,8 +303,59 @@ print(resultados)
 
 ---
 
+## 📈 Crecimiento de Diferentes Complejidades  
+El crecimiento de la complejidad de un algoritmo describe cómo aumentan el **tiempo de ejecución** y el **uso de memoria** en función del tamaño de la entrada (`n`).  
+Podemos representar estas **complejidades comunes** con gráficos que ilustran su comportamiento.  
 
-✔️ Diagramas para ilustrar el crecimiento de la complejidad.  
+---
+
+### Crecimiento de algunas funciones de complejidad comunes
+🔎  **Explicación:**  
+- **O(1):** Tiempo constante, no importa el tamaño de `n`.  
+- **O(log n):** Crece lentamente, ejemplo: búsqueda binaria.  
+- **O(n):** Crecimiento lineal, ejemplo: recorrido de una lista.  
+- **O(n log n):** Crece más rápido, pero sigue siendo eficiente, ejemplo: QuickSort.  
+- **O(n²):** Cuadrático, se vuelve lento con `n` grande, ejemplo: bubble sort.  
+- **O(2ⁿ):** Exponencial, muy ineficiente para valores altos de `n`.  
+
+---
+
+### 📊 Comparación en Tabla  
+
+| **Complejidad** | **Ejemplo de Algoritmo**    | **Crecimiento** |
+|----------------|---------------------------|----------------|
+| **O(1)**       | Acceso a un array (`arr[i]`) | Constante |
+| **O(log n)**   | Búsqueda binaria           | Muy lento |
+| **O(n)**       | Recorrer una lista         | Lineal |
+| **O(n log n)** | QuickSort, MergeSort       | Cuasi-lineal |
+| **O(n²)**      | Bubble Sort, Selection Sort | Cuadrático |
+| **O(2ⁿ)**      | Algoritmo de fuerza bruta  | Exponencial |
+
+---
+
+### 🔢 Código en Python para Generar el Gráfico  
+Si deseas generar tu propio gráfico de crecimiento de complejidad, usa el siguiente código en Python:  
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+n = np.linspace(1, 10, 100)
+
+plt.figure(figsize=(8, 6))
+plt.plot(n, np.ones_like(n), label="O(1)", linestyle='dashed')
+plt.plot(n, np.log2(n), label="O(log n)")
+plt.plot(n, n, label="O(n)")
+plt.plot(n, n * np.log2(n), label="O(n log n)")
+plt.plot(n, n**2, label="O(n²)")
+plt.plot(n, 2**n, label="O(2ⁿ)")
+
+plt.ylim(0, 100)
+plt.legend()
+plt.xlabel("Tamaño de Entrada (n)")
+plt.ylabel("Operaciones")
+plt.title("Crecimiento de Complejidad")
+plt.show()
+```
 
 ---
 
