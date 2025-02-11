@@ -158,7 +158,7 @@ def buscar(lista, objetivo):
 
 ---
 
-### 📌 **Resumen de Análisis de Complejidad**  
+### 📊 **Resumen de Análisis de Complejidad**  
 
 | **Tipo de Caso**  | **Notación**  | **Cuándo ocurre**  |
 |------------------|-------------|------------------|
