@@ -86,7 +86,7 @@ def print_pairs(n):
 - **O(n²), O(2ⁿ) y O(n!)** deben evitarse en entradas grandes.  
 
 🔎 **Ejemplo práctico:**  
-Si tienes `n = 1,000,000`, una búsqueda en **O(log n)** tomará alrededor de **20 operaciones**, mientras que una en **O(n)** tomará **1,000,000 operaciones**. ¡Elegir bien la complejidad hace una gran diferencia! 🚀
+- Si tienes `n = 1,000,000`, una búsqueda en **O(log n)** tomará alrededor de **20 operaciones**, mientras que una en **O(n)** tomará **1,000,000 operaciones**. ¡Elegir bien la complejidad hace una gran diferencia! 🚀
 
 ---
 
