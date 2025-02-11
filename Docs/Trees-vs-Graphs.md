@@ -1,4 +1,4 @@
-# 📈 Trees vs. Graphs
+# 🌲 Trees vs. Graphs 🕸️
 Tanto los árboles (*trees*) como los gráficos (*graphs*) son estructuras de datos fundamentales en informática y aparecen frecuentemente en problemas de LeetCode. Aunque están relacionados, tienen diferencias clave en su estructura y en cómo se utilizan.
 
 ---
