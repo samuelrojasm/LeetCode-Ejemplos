@@ -146,6 +146,8 @@ def buscar(lista, objetivo):
     - Si el objetivo está en el medio → O(n/2)
     - Si el objetivo no está → O(n)
 
+---
+
 ### **🔎 Ejemplo con Algoritmo de Ordenamiento: QuickSort**  
 
 | **Caso**         | **Descripción** | **Complejidad** |
@@ -156,7 +158,7 @@ def buscar(lista, objetivo):
 
 ---
 
-### 📌**Resumen de Análisis de Complejidad**  
+### 📌 **Resumen de Análisis de Complejidad**  
 
 | **Tipo de Caso**  | **Notación**  | **Cuándo ocurre**  |
 |------------------|-------------|------------------|
@@ -222,7 +224,7 @@ def leer_lineas(archivo):
 ### **3️⃣ Estructuras de Datos Adecuadas**  
 🔹 Elegir la estructura de datos correcta reduce la complejidad de las operaciones que realizas en el algoritmo.  
 
-#### 📌 Tabla: Estructuras de Datos y su Complejidad  
+#### 📊 Tabla: Estructuras de Datos y su Complejidad  
 
 | **Tarea**                  | **Estructura Recomendada**       | **Complejidad** |
 |----------------------------|---------------------------------|-----------------|
