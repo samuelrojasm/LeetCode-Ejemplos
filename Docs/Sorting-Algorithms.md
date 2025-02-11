@@ -178,14 +178,10 @@ def counting_sort_by_digit(arr, exp):
 - **Descripción**: Es un algoritmo de ordenación basado en la idea de dividir el conjunto de elementos en "cubos" (buckets) y ordenar cada cubo individualmente. Luego, los elementos de los cubos se combinan para obtener la secuencia ordenada.
 
 - **Complejidad**:
-    - **Mejor Caso:**  
-  O(n + k), donde `n` es el número de elementos y `k` es el número de cubos. Si los elementos están distribuidos uniformemente, cada cubo tiene aproximadamente `n/k` elementos, lo que puede hacer que la ordenación dentro de cada cubo sea eficiente.
-    - **Peor Caso:**  
-  O(n²), cuando todos los elementos caen en un solo cubo y el algoritmo de ordenación dentro del cubo tiene una complejidad O(n²), como Insertion Sort.
-    - **Promedio:**  
-  O(n + k + n²/k), dependiendo de cómo estén distribuidos los elementos y la estrategia de ordenación interna.
-    - **Espacio Extra:**  
-  O(n + k), debido a los cubos y la lista de entrada.
+    - **Mejor Caso:**  O(n + k), donde `n` es el número de elementos y `k` es el número de cubos. Si los elementos están distribuidos uniformemente, cada cubo tiene aproximadamente `n/k` elementos, lo que puede hacer que la ordenación dentro de cada cubo sea eficiente.
+    - **Peor Caso:** O(n²), cuando todos los elementos caen en un solo cubo y el algoritmo de ordenación dentro del cubo tiene una complejidad O(n²), como Insertion Sort.
+    - **Promedio:** O(n + k + n²/k), dependiendo de cómo estén distribuidos los elementos y la estrategia de ordenación interna.
+    - **Espacio Extra:** O(n + k), debido a los cubos y la lista de entrada.
 
 - **Implementación**:
 ```python
@@ -253,6 +249,9 @@ A continuación, se presenta una comparación de los algoritmos de ordenamiento 
 Esta comparación es clave para seleccionar el algoritmo adecuado dependiendo de las restricciones del problema. 🚀
 
 ### 📌 Explicación de la tabla:
+
+---
+
 #### Columna "Estable"
 La columna "Estable" indica si el algoritmo es estable o no. Un algoritmo de ordenación se considera estable si, cuando dos elementos tienen el mismo valor, mantienen su orden relativo original después de ser ordenados.
 
@@ -267,6 +266,8 @@ En la tabla:
 
 - ✔️ indica que el algoritmo es estable.
 - ❌ indica que el algoritmo no es estable.
+
+---
 
 #### Columna "In-Place"
 La columna "In-Place" indica si el algoritmo de ordenación modifica los elementos directamente en el espacio de memoria original, sin necesidad de usar espacio adicional significativo. Un algoritmo se considera "in-place" si no requiere memoria extra proporcional al tamaño de la entrada, es decir, si puede realizar la ordenación con una cantidad de espacio constante (en general, O(1)).
