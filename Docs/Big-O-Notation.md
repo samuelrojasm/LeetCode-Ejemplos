@@ -309,7 +309,7 @@ Podemos representar estas **complejidades comunes** con gráficos que ilustran s
 
 ---
 
-### Crecimiento de algunas funciones de complejidad comunes
+### 💡 Crecimiento de algunas funciones de complejidad comunes
 🔎  **Explicación:**  
 - **O(1):** Tiempo constante, no importa el tamaño de `n`.  
 - **O(log n):** Crece lentamente, ejemplo: búsqueda binaria.  
