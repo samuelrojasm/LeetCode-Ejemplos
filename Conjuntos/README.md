@@ -11,10 +11,10 @@
 - Admiten operaciones matemáticas como unión, intersección y diferencia.  
 
 ## 🚀 Aplicaciones prácticas:
-✅ Eliminación de duplicados en listas.
-✅ Verificación rápida de pertenencia (x in conjunto).
-✅ Operaciones matemáticas en conjuntos de datos.
-✅ Comparación eficiente de listas.
+✅ Eliminación de duplicados en listas.  
+✅ Verificación rápida de pertenencia (x in conjunto).  
+✅ Operaciones matemáticas en conjuntos de datos.  
+✅ Comparación eficiente de listas.  
 
 ---
 
