@@ -85,8 +85,6 @@ def print_pairs(n):
 - **O(1), O(log n) y O(n log n)** son ideales para algoritmos eficientes.  
 - **O(n²), O(2ⁿ) y O(n!)** deben evitarse en entradas grandes.  
 
----
-
 🔎 **Ejemplo práctico:**  
 Si tienes `n = 1,000,000`, una búsqueda en **O(log n)** tomará alrededor de **20 operaciones**, mientras que una en **O(n)** tomará **1,000,000 operaciones**. ¡Elegir bien la complejidad hace una gran diferencia! 🚀
 
@@ -100,7 +98,7 @@ Cuando analizamos la eficiencia de un algoritmo, es importante considerar tres e
 2️⃣ **Mejor Caso (Best Case, Ω)**  
 3️⃣ **Caso Promedio (Average Case, Θ)**  
 
-- El Peor Caso es el más útil para garantizar eficiencia. Sin embargo, el Caso Promedio suele reflejar mejor el rendimiento real. 🚀
+📌 **El Peor Caso** es el más útil para garantizar eficiencia. Sin embargo, el **Caso Promedio** suele reflejar mejor el rendimiento real. 🚀
 
 ---
 
