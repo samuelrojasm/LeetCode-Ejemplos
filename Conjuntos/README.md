@@ -159,9 +159,66 @@ print(conteo)  # {1: 2, 2: 1, 3: 2, 4: 1, 5: 1}
 
 ---
 
+## 📋 Operaciones Comunes Usando Conjuntos en Listas
+Usar `set` para filtrar listas hace que las búsquedas sean **O(1)** en lugar de **O(n)**, lo que acelera el código en listas grandes. Aquí están los casos comunes y sus implicaciones:
+
+---
+
+| **Operación**                                      | **Método**                         | **Ejemplo**                                     |
+|----------------------------------------------------|-------------------------------------|------------------------------------------------|
+| **Filtrar elementos que están en otra lista**      | `intersection`                     | `[x for x in lista if x in set(permitidos)]`   |
+| **Filtrar elementos que no están en otra lista**   | `difference`                       | `[x for x in lista if x not in set(prohibidos)]` |
+| **Encontrar elementos únicos entre dos listas**    | `symmetric_difference`             | `list(set(lista1) ^ set(lista2))`              |
+| **Encontrar elementos en común entre dos listas**  | `intersection`                     | `list(set(lista1) & set(lista2))`              |
+| **Eliminar duplicados manteniendo el orden**       | `set()` con list comprehension      | `eliminar_duplicados(lista)`                   |
+
+¡Implementar estos trucos con conjuntos hará que tu código sea más rápido y eficiente! 🚀🔥
+
+---
+
+### 📌 Notas
+1. **Uso de `set`**: 
+   - Ideal para operaciones rápidas, ya que las búsquedas en un conjunto son **O(1)** en promedio.
+   - Más eficiente para búsquedas en listas grandes.
+   - Sin embargo, el uso de `set` no garantiza mantener el orden de los elementos.
+
+2. **Mantener el orden**: 
+   - Si necesitas preservar el orden original, combina conjuntos con list comprehensions.
+   - Útiles cuando el orden original es importante.
+   - Más lentas para listas grandes debido a las búsquedas lineales (**O(n)**).
+
+Selecciona el método según la operación que necesites realizar. 🚀
+
+---
+
 ## 📚 Recursos Adicionales  
-📖 [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)  
-🎥 [Video Explicativo en YouTube](https://www.youtube.com/watch?v=__vX2sjlpXU)  
-📖 [CS50 Harvard - Introducción a Algoritmos](https://cs50.harvard.edu/)  
+📖 [Tutorial de Python sobre conjuntos y teoría de conjuntos](https://www.datacamp.com/es/tutorial/sets-in-python)  
+📖 [Conjuntos en Python (Sets)](https://medium.com/@diego.coder/conjuntos-en-python-sets-4355f7ee703a)  
+📖 [Métodos de los conjuntos](https://docs.hektorprofe.net/python/metodos-de-las-colecciones/metodos-de-los-conjuntos/)   
+📖 [Conjuntos en Python: El tipo set y operaciones más comunes](https://j2logo.com/python/tutorial/tipo-set-python/)  
+
+---
+
+## 🚀 Propuesta de crecimineto del repo
+
+/Sets (set)  
+│
+├── README.md                # Guía general sobre el uso de conjuntos, explicación del subdirectorio
+├── operations.md            # Detalles sobre operaciones básicas y avanzadas de conjuntos
+├── patterns_and_techniques.md  # Patrones y técnicas comunes con conjuntos en LeetCode
+├── examples/                # Ejemplos prácticos de código
+│   ├── basic_operations.py   # Código de operaciones básicas (add, remove, in, etc.)
+│   ├── advanced_operations.py # Código de operaciones avanzadas (unión, intersección, etc.)
+│   └── problem_examples.py   # Ejemplos de problemas de LeetCode resueltos con conjuntos
+├── problems/                # Problemas resueltos en LeetCode que usan conjuntos
+│   ├── intersection_of_two_arrays.py
+│   ├── contains_duplicate.py
+│   ├── subset.py
+│   └── set_matrix_zeroes.py
+├── time_complexity.md       # Análisis de la complejidad temporal de las operaciones de conjuntos
+├── references/              # Recursos adicionales, documentación y enlaces útiles
+│   ├── python_set_docs.md   # Documentación oficial sobre sets en Python
+│   └── external_resources.md  # Enlaces a tutoriales y artículos adicionales
+└── quick_reference.md       # Resumen rápido de operaciones y complejidades
 
 ---
