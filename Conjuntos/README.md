@@ -200,7 +200,7 @@ Selecciona el método según la operación que necesites realizar. 🚀
 ---
 
 ## 🚀 Propuesta de crecimineto del repo
-
+```
 /Sets (set)  
 │
 ├── README.md                # Guía general sobre el uso de conjuntos, explicación del subdirectorio
@@ -220,5 +220,6 @@ Selecciona el método según la operación que necesites realizar. 🚀
 │   ├── python_set_docs.md   # Documentación oficial sobre sets en Python
 │   └── external_resources.md  # Enlaces a tutoriales y artículos adicionales
 └── quick_reference.md       # Resumen rápido de operaciones y complejidades
+```
 
 ---
